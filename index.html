@@ -1,18 +1,121 @@
-<HTML>
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Connor's Cyber Zone</title>
+    <meta charset="UTF-8">
+    <style>
+        body {
+            background-color: #000000;
+            background-image: url('https://anlucas.neocities.org/bg/stars.gif'); /* Classic starfield */
+            color: #00FF00;
+            font-family: "MS Sans Serif", "Courier New", monospace;
+            margin: 0;
+            padding: 20px;
+        }
+        
+        .container {
+            width: 800px;
+            margin: 0 auto;
+            background: rgba(0, 0, 0, 0.7);
+            border: 4px ridge #00FF00;
+            padding: 20px;
+            box-shadow: 10px 10px 0px #800080;
+        }
+        
+        h1, h2 {
+            text-align: center;
+            color: #FFFF00;
+            font-family: "Comic Sans MS", cursive;
+            text-shadow: 2px 2px #FF0000;
+        }
 
+        .marquee-container {
+            border: 2px dashed #FF00FF;
+            padding: 5px;
+            margin-bottom: 20px;
+            background: #000080;
+        }
 
-    <body>
-<a href="https://nocss.club/" align="center">
-            <img align="left" width="600" height="300" hspace="406" src="name.png" alt="DMR picture">
-    </a>
-    <h1 align="center"> About Me
-    </h1>
-    <p>
-        This is my website.
-    </p>
-    <p align="center">
-        <a href="mailto:connor@molin.ski">This is my email.</a>
-    </p>
-    </body>
+        a {
+            color: #00FFFF;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        
+        a:hover {
+            color: #FF00FF;
+            text-decoration: underline overline;
+            background: #FFFFFF;
+        }
 
-</HTML>
+        .buttons {
+            text-align: center;
+            margin-top: 30px;
+        }
+
+        .buttons img {
+            image-rendering: pixelated;
+            margin: 2px;
+            border: 1px solid #555;
+        }
+
+        hr {
+            border: 0;
+            border-bottom: 2px dashed #00FF00;
+            margin: 25px 0;
+        }
+
+        .construction {
+            text-align: center;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <div class="marquee-container">
+            <marquee scrollamount="6" behavior="alternate" style="font-size: 1.2em; color: #00FFFF;">
+                *** ＷＥＬＣＯＭＥ ＴＯ ＣＯＮＮＯＲ＇Ｓ ＣＹＢＥＲＳＰＡＣＥ *** 
+            </marquee>
+        </div>
+        
+        <div align="center">
+            <!-- Keeping your original image, but adding a nice classic border to it -->
+            <a href="https://nocss.club/">
+                <img src="name.png" alt="DMR picture" style="max-width: 100%; border: 3px outset #ccc;">
+            </a>
+        </div>
+
+        <h1>About Me</h1>
+        
+        <p>
+            Welcome to my slice of the net. This is my website.
+        </p>
+
+        <p>
+            >> <a href="mailto:connor@molin.ski">Drop me an email</a> <<
+        </p>
+
+        <hr>
+
+        <h2>Links / Webring</h2>
+        <div class="buttons">
+            <!-- The holy grail of 88x31 buttons -->
+            <a href="https://neocities.org"><img src="https://cyber.dabamos.de/88x31/neocities.gif" alt="Neocities"></a>
+            <img src="https://cyber.dabamos.de/88x31/anybrowser4.gif" alt="Any Browser">
+            <img src="https://cyber.dabamos.de/88x31/html40.gif" alt="Valid HTML 4.0">
+            <img src="https://cyber.dabamos.de/88x31/notepad.gif" alt="Made with Notepad">
+        </div>
+        
+        <div class="construction">
+            <img src="https://cyber.dabamos.de/88x31/under-construction.gif" alt="Under Construction">
+            <br><br>
+            <marquee scrollamount="3" direction="right" width="200">
+                <span style="color: #FF0000; font-size: 10px;">updating...</span>
+            </marquee>
+        </div>
+    </div>
+
+</body>
+</html>
